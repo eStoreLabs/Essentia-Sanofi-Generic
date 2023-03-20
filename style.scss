@@ -277,6 +277,20 @@ body {
     padding: 12px;
     background: url(img/slide-bg.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    &__btn{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+    &__arrow{
+      font-size: 36px;
+        margin: 20px;
+        color: #fff;
+        font-weight: 500;
+    }
     &__title {
       font-weight: 500;
       font-size: 22px;
@@ -287,6 +301,10 @@ body {
       color: #fff;
       font-weight: 300;
       margin-bottom: 24px;
+    }
+    &__mainCtn{
+      display: flex;
+      flex-direction: column;
     }
     &__items {
       display: flex;
@@ -322,6 +340,9 @@ body {
         background: #ffae00;
         transform: rotate(45deg);
       }
+    }
+    &__hide{
+      display: none;
     }
   }
 
@@ -491,12 +512,33 @@ body {
         display: none;
       }
     }
+    &__btn{
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    &__arrow{
+      font-size: 22px;
+      margin: 20px;
+      color: #fff;
+      font-weight: 500;
+    }
+    &__hiddenCtn{
+      display: block;
+      margin-top: 50px;
+    }
+    &__hide{
+      display: none;
+    }
     &__title {
       font-size: 22px;
       margin-bottom: 20px;
       color: #fff;
       font-weight: 500;
     }
+    
     &__items {
       display: flex;
       align-items: center;
@@ -673,6 +715,10 @@ body {
       &__title {
         font-size: 56px;
       }
+      &__mainCtn{
+        display: flex;
+        flex-direction: row;
+      }
       &__wrapper {
         max-width: 45%;
       }
@@ -692,6 +738,9 @@ body {
       }
       &__desc {
         font-size: 24px;
+      }
+      &__hide{
+        display: none;
       }
     }
 
@@ -748,10 +797,19 @@ body {
           display: flex;
         }
       }
+      &__arrow{
+        font-size: 36px;
+        margin: 20px;
+        color: #fff;
+        font-weight: 500;
+      }
       &__items {
         justify-content: start;
         gap: 24px;
         margin-bottom: 16px;
+      }
+      &__item{
+        min-height: 200px;
       }
       &__icon {
         max-width: 84px;
@@ -858,6 +916,7 @@ body {
       padding: 40px;
       &__title {
         font-size: 72px;
+        cursor: pointer;
       }
       &__text {
         font-size: 32px;
@@ -930,7 +989,7 @@ body {
         max-width: none;
       }
       &__desc {
-        font-size: 32px;
+        font-size: 28px;
       }
       &__text {
         font-size: 48px;

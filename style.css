@@ -235,6 +235,20 @@ body {
   padding: 12px;
   background: url(img/slide-bg.jpg);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#es-essentia.es-essentia .es-dosage__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+#es-essentia.es-essentia .es-dosage__arrow {
+  font-size: 36px;
+  margin: 20px;
+  color: #fff;
+  font-weight: 500;
 }
 #es-essentia.es-essentia .es-dosage__title {
   font-weight: 500;
@@ -246,6 +260,10 @@ body {
   color: #fff;
   font-weight: 300;
   margin-bottom: 24px;
+}
+#es-essentia.es-essentia .es-dosage__mainCtn {
+  display: flex;
+  flex-direction: column;
 }
 #es-essentia.es-essentia .es-dosage__items {
   display: flex;
@@ -281,6 +299,9 @@ body {
   height: 8px;
   background: #ffae00;
   transform: rotate(45deg);
+}
+#es-essentia.es-essentia .es-dosage__hide {
+  display: none;
 }
 #es-essentia.es-essentia .es-info .swiper-button-next,
 #es-essentia.es-essentia .es-info .swiper-button-prev {
@@ -427,6 +448,26 @@ body {
   padding: 14px;
 }
 #es-essentia.es-essentia .es-comp__content--desktop {
+  display: none;
+}
+#es-essentia.es-essentia .es-comp__btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#es-essentia.es-essentia .es-comp__arrow {
+  font-size: 22px;
+  margin: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+#es-essentia.es-essentia .es-comp__hiddenCtn {
+  display: block;
+  margin-top: 50px;
+}
+#es-essentia.es-essentia .es-comp__hide {
   display: none;
 }
 #es-essentia.es-essentia .es-comp__title {
@@ -602,6 +643,10 @@ body {
   #es-essentia.es-essentia .es-dosage__title {
     font-size: 56px;
   }
+  #es-essentia.es-essentia .es-dosage__mainCtn {
+    display: flex;
+    flex-direction: row;
+  }
   #es-essentia.es-essentia .es-dosage__wrapper {
     max-width: 45%;
   }
@@ -621,6 +666,9 @@ body {
   }
   #es-essentia.es-essentia .es-dosage__desc {
     font-size: 24px;
+  }
+  #es-essentia.es-essentia .es-dosage__hide {
+    display: none;
   }
   #es-essentia.es-essentia .es-info .swiper-button-next,
   #es-essentia.es-essentia .es-info .swiper-button-prev {
@@ -667,10 +715,19 @@ body {
   #es-essentia.es-essentia .es-comp__content--desktop {
     display: flex;
   }
+  #es-essentia.es-essentia .es-comp__arrow {
+    font-size: 36px;
+    margin: 20px;
+    color: #fff;
+    font-weight: 500;
+  }
   #es-essentia.es-essentia .es-comp__items {
     justify-content: start;
     gap: 24px;
     margin-bottom: 16px;
+  }
+  #es-essentia.es-essentia .es-comp__item {
+    min-height: 200px;
   }
   #es-essentia.es-essentia .es-comp__icon {
     max-width: 84px;
@@ -764,6 +821,7 @@ body {
   }
   #es-essentia.es-essentia .es-dosage__title {
     font-size: 72px;
+    cursor: pointer;
   }
   #es-essentia.es-essentia .es-dosage__text {
     font-size: 32px;
@@ -829,7 +887,7 @@ body {
     max-width: none;
   }
   #es-essentia.es-essentia .es-comp__desc {
-    font-size: 32px;
+    font-size: 28px;
   }
   #es-essentia.es-essentia .es-comp__text {
     font-size: 48px;
