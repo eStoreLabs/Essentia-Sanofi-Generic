@@ -546,6 +546,16 @@ body {
   color: #506f13;
   font-weight: 300;
 }
+#es-essentia.es-essentia .es-disclaimer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#es-essentia.es-essentia .es-disclaimer__mat {
+  color: #506f13;
+  font-weight: 500;
+  font-size: 18px;
+}
 @media screen and (min-width: 768px) {
   #es-essentia.es-essentia .es-kv {
     margin-bottom: 0;
