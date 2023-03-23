@@ -317,8 +317,8 @@ body {
       cursor: pointer;
     }
     &__arrow{
-      font-size: 36px;
-        margin: 20px;
+      font-size: 22px;
+
         color: #fff;
         font-weight: 500;
     }
@@ -485,6 +485,9 @@ body {
     &__wrapper {
       overflow-x: scroll;
     }
+    &__green{
+ 
+    }
     table {
       border-collapse: collapse;
       max-width: none;
@@ -552,7 +555,7 @@ body {
     }
     &__arrow{
       font-size: 22px;
-      margin: 20px;
+
       color: #fff;
       font-weight: 500;
     }
@@ -746,6 +749,9 @@ body {
       &__title {
         font-size: 56px;
       }
+      &__arrow{
+        font-size: 36px;
+      }
       &__mainCtn{
         display: flex;
         flex-direction: row;
@@ -818,32 +824,36 @@ body {
     .es-comp {
       padding-bottom: 0;
       &__title {
-        font-size: 32px;
+        font-size: 56px;
       }
       &__content {
         &--mobile {
           display: none;
         }
         &--desktop {
-          display: flex;
+          display: block;
         }
       }
       &__arrow{
         font-size: 36px;
-        margin: 20px;
         color: #fff;
         font-weight: 500;
       }
       &__items {
-        justify-content: start;
+        justify-content: space-around;
         gap: 24px;
         margin-bottom: 16px;
       }
+      &__secondCtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
       &__item{
-        min-height: 200px;
+        min-height: 150px;
       }
       &__icon {
-        max-width: 84px;
+        max-width: 104px;
       }
       &__desc {
         font-size: 24px;
@@ -851,9 +861,14 @@ body {
       &__text {
         font-size: 24px;
       }
+      &__mg{
+        min-width: 300px;
+        padding: 0px 20px;
+      }
       &__img {
         right: 0;
-        margin-top: -77px;
+        margin-top: -27px;
+        max-width: 650px;
       }
       &__texts {
         margin-right: 0;
@@ -1015,7 +1030,6 @@ body {
 
     .es-comp {
       padding: 40px;
-      padding-right: 0;
       &__title {
         font-size: 72px;
       }
@@ -1026,7 +1040,7 @@ body {
         font-size: 28px;
       }
       &__text {
-        font-size: 48px;
+        font-size: 38px;
       }
     }
 
