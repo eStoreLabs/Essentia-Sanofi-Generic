@@ -31,6 +31,30 @@ body {
   overflow: hidden;
   color: #000;
   background: #fff;
+  /* Track */
+  /* Handle */
+}
+#es-essentia.es-essentia ::-webkit-scrollbar {
+  width: 12px !important;
+}
+#es-essentia.es-essentia ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  -webkit-border-radius: 10px !important;
+  -webkit-overflow-scrolling: auto;
+  border-radius: 10px !important;
+}
+#es-essentia.es-essentia ::-webkit-scrollbar-thumb {
+  -webkit-overflow-scrolling: auto;
+  border-radius: 10px !important;
+  background: #506f13 !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5) !important;
+}
+#es-essentia.es-essentia ::-webkit-scrollbar-thumb:window-inactive {
+  -webkit-overflow-scrolling: auto;
+  border-radius: 10px !important;
+  background: #506f13 !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5) !important;
+  -webkit-overflow-scrolling: auto;
 }
 #es-essentia.es-essentia * {
   box-sizing: border-box;
@@ -237,7 +261,7 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 #es-essentia.es-essentia .es-dosage__btn {
   display: flex;
