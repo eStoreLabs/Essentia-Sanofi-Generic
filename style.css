@@ -753,7 +753,7 @@ body {
   #es-essentia.es-essentia .es-comp__secondCtn {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
   }
   #es-essentia.es-essentia .es-comp__item {
     min-height: 150px;
@@ -774,7 +774,7 @@ body {
   #es-essentia.es-essentia .es-comp__img {
     right: 0;
     margin-top: -27px;
-    max-width: 650px;
+    max-width: 700px;
   }
   #es-essentia.es-essentia .es-comp__texts {
     margin-right: 0;

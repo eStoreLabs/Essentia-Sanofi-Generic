@@ -847,7 +847,7 @@ body {
       &__secondCtn{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
       }
       &__item{
         min-height: 150px;
@@ -868,7 +868,7 @@ body {
       &__img {
         right: 0;
         margin-top: -27px;
-        max-width: 650px;
+        max-width: 700px;
       }
       &__texts {
         margin-right: 0;
