@@ -337,16 +337,15 @@ body {
 }
 #es-essentia.es-essentia .es-info__nav.swiper-wrapper {
   padding: 14px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
   gap: 14px;
 }
 #es-essentia.es-essentia .es-info__nav-item {
   padding: 4px;
   border: 2px solid #506f13;
-  width: 30% !important;
-  max-width: 270px;
+  width: 95% !important;
+  max-width: none;
   height: auto;
   display: flex;
   flex-flow: column;
@@ -892,6 +891,7 @@ body {
   }
   #es-essentia.es-essentia .es-info__nav.swiper-wrapper {
     padding: 24px;
+    grid-template-columns: 23% 23% 23% 23%;
   }
   #es-essentia.es-essentia .es-info__nav-item {
     padding: 8px;
