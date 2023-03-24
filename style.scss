@@ -656,7 +656,14 @@ body {
       right: -20%;
     }
   }
-
+ .es-desc{
+  padding: 30px 14px;
+  &__item {
+    color: #506f13;
+    font-weight: 300;
+    margin: 10px 0;
+  }
+ }
   .es-disclaimer {
     padding: 14px;
     &__title {
@@ -943,6 +950,12 @@ body {
         font-size: 24px;
       }
     }
+
+    .es-desc{
+      &__item {
+        font-size: 24px;
+      }
+     }
   }
 
   @media screen and (min-width: 1024px) {
@@ -1112,5 +1125,11 @@ body {
     .es-disclaimer {
       padding: 40px;
     }
+    .es-desc{
+      padding: 40px;
+      &__item {
+        font-size: 24px;
+      }
+     }
   }
 }

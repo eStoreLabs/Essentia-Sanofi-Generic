@@ -576,6 +576,14 @@ body {
   top: 0px;
   right: -20%;
 }
+#es-essentia.es-essentia .es-desc {
+  padding: 30px 14px;
+}
+#es-essentia.es-essentia .es-desc__item {
+  color: #506f13;
+  font-weight: 300;
+  margin: 10px 0;
+}
 #es-essentia.es-essentia .es-disclaimer {
   padding: 14px;
 }
@@ -841,6 +849,9 @@ body {
   #es-essentia.es-essentia .es-disclaimer__item {
     font-size: 24px;
   }
+  #es-essentia.es-essentia .es-desc__item {
+    font-size: 24px;
+  }
 }
 @media screen and (min-width: 1024px) {
   #es-essentia.es-essentia .swiper-pagination-bullet {
@@ -991,5 +1002,11 @@ body {
   }
   #es-essentia.es-essentia .es-disclaimer {
     padding: 40px;
+  }
+  #es-essentia.es-essentia .es-desc {
+    padding: 40px;
+  }
+  #es-essentia.es-essentia .es-desc__item {
+    font-size: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
