@@ -480,6 +480,7 @@ body {
       font-weight: 500;
       text-align: center;
       padding: 14px;
+      font-size: 20px;
     }
     &__wrapper {
       overflow-x: scroll;
@@ -487,10 +488,11 @@ body {
     }
     &__green{
       &--top{
-        border-radius: 25px;
         border-top: 5px solid #ccc926;
         border-left: 5px solid #ccc926;
         border-right: 5px solid #ccc926;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
       }
       &--sides{
         border-left: 5px solid #ccc926;
@@ -499,17 +501,21 @@ body {
       &--bottom{
         border-left: 5px solid #ccc926;
         border-right: 5px solid #ccc926;
-        border-bottom: 5px solid #ccc926!important; 
+        border-bottom: 5px solid #ccc926!important;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px; 
       }
     }
     &__orange{
       &--topLeft{
         border-top: 5px solid #f29400;
         border-left: 5px solid #f29400;
+        border-top-left-radius: 20px;
       }
       &--topRight{
         border-top: 5px solid #f29400;
         border-right: 5px solid #f29400;
+        border-top-right-radius: 20px;
       }
       &--sideLeft{
         border-left: 5px solid #f29400;
@@ -520,10 +526,12 @@ body {
       &--bottomLeft{
         border-left: 5px solid #f29400;
         border-bottom: 5px solid #f29400!important; 
+        border-bottom-left-radius: 20px; 
       }
       &--bottomRight{
         border-right: 5px solid #f29400;
         border-bottom: 5px solid #f29400!important; 
+        border-bottom-right-radius: 20px; 
       }
     }
     table {
@@ -1067,6 +1075,9 @@ body {
     }
 
     .es-table {
+      &__title{
+        font-size: 40px;
+      }
       &__img {
         max-width: none;
         padding: 15px;
