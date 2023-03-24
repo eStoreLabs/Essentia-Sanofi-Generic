@@ -483,9 +483,48 @@ body {
     }
     &__wrapper {
       overflow-x: scroll;
+      padding-bottom: 15px;
     }
     &__green{
- 
+      &--top{
+        border-radius: 25px;
+        border-top: 5px solid #ccc926;
+        border-left: 5px solid #ccc926;
+        border-right: 5px solid #ccc926;
+      }
+      &--sides{
+        border-left: 5px solid #ccc926;
+        border-right: 5px solid #ccc926;
+      }
+      &--bottom{
+        border-left: 5px solid #ccc926;
+        border-right: 5px solid #ccc926;
+        border-bottom: 5px solid #ccc926!important; 
+      }
+    }
+    &__orange{
+      &--topLeft{
+        border-top: 5px solid #f29400;
+        border-left: 5px solid #f29400;
+      }
+      &--topRight{
+        border-top: 5px solid #f29400;
+        border-right: 5px solid #f29400;
+      }
+      &--sideLeft{
+        border-left: 5px solid #f29400;
+      }
+      &--sideRight{
+        border-right: 5px solid #f29400;
+      }
+      &--bottomLeft{
+        border-left: 5px solid #f29400;
+        border-bottom: 5px solid #f29400!important; 
+      }
+      &--bottomRight{
+        border-right: 5px solid #f29400;
+        border-bottom: 5px solid #f29400!important; 
+      }
     }
     table {
       border-collapse: collapse;
@@ -504,7 +543,7 @@ body {
       border-bottom: 1px solid #dddddd;
     }
     tr:last-child td {
-      border-bottom: none;
+
     }
     &__name {
       padding: 14px;
@@ -518,9 +557,13 @@ body {
         color: #92250b;
       }
     }
+    &__emptyColumn{
+      width: 1spx;
+    }
     &__img {
       margin: 0 auto;
       max-width: 100px;
+      padding: 5px;
     }
     &__link {
       display: block;
@@ -1026,6 +1069,7 @@ body {
     .es-table {
       &__img {
         max-width: none;
+        padding: 15px;
       }
       &__name {
         font-size: 32px;

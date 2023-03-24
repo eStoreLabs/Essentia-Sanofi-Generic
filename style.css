@@ -416,6 +416,44 @@ body {
 }
 #es-essentia.es-essentia .es-table__wrapper {
   overflow-x: scroll;
+  padding-bottom: 15px;
+}
+#es-essentia.es-essentia .es-table__green--top {
+  border-radius: 25px;
+  border-top: 5px solid #ccc926;
+  border-left: 5px solid #ccc926;
+  border-right: 5px solid #ccc926;
+}
+#es-essentia.es-essentia .es-table__green--sides {
+  border-left: 5px solid #ccc926;
+  border-right: 5px solid #ccc926;
+}
+#es-essentia.es-essentia .es-table__green--bottom {
+  border-left: 5px solid #ccc926;
+  border-right: 5px solid #ccc926;
+  border-bottom: 5px solid #ccc926 !important;
+}
+#es-essentia.es-essentia .es-table__orange--topLeft {
+  border-top: 5px solid #f29400;
+  border-left: 5px solid #f29400;
+}
+#es-essentia.es-essentia .es-table__orange--topRight {
+  border-top: 5px solid #f29400;
+  border-right: 5px solid #f29400;
+}
+#es-essentia.es-essentia .es-table__orange--sideLeft {
+  border-left: 5px solid #f29400;
+}
+#es-essentia.es-essentia .es-table__orange--sideRight {
+  border-right: 5px solid #f29400;
+}
+#es-essentia.es-essentia .es-table__orange--bottomLeft {
+  border-left: 5px solid #f29400;
+  border-bottom: 5px solid #f29400 !important;
+}
+#es-essentia.es-essentia .es-table__orange--bottomRight {
+  border-right: 5px solid #f29400;
+  border-bottom: 5px solid #f29400 !important;
 }
 #es-essentia.es-essentia .es-table table {
   border-collapse: collapse;
@@ -433,9 +471,6 @@ body {
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
 }
-#es-essentia.es-essentia .es-table tr:last-child td {
-  border-bottom: none;
-}
 #es-essentia.es-essentia .es-table__name {
   padding: 14px;
 }
@@ -448,9 +483,13 @@ body {
 #es-essentia.es-essentia .es-table__name--red {
   color: #92250b;
 }
+#es-essentia.es-essentia .es-table__emptyColumn {
+  width: 1spx;
+}
 #es-essentia.es-essentia .es-table__img {
   margin: 0 auto;
   max-width: 100px;
+  padding: 5px;
 }
 #es-essentia.es-essentia .es-table__link {
   display: block;
@@ -913,6 +952,7 @@ body {
   }
   #es-essentia.es-essentia .es-table__img {
     max-width: none;
+    padding: 15px;
   }
   #es-essentia.es-essentia .es-table__name {
     font-size: 32px;
