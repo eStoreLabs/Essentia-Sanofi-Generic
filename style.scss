@@ -450,6 +450,9 @@ body {
       padding: 20px 14px;
       // min-height: 320px;
       padding-bottom: 56px;
+      &--doctor{
+        min-height: 340px;
+      }
     }
     &__wrapper {
       display: flex;
@@ -465,6 +468,9 @@ body {
     &__text {
       color: #fff;
       font-weight: 300;
+      &--doctor{
+        max-width: 360px;
+      }
     }
     &__asset {
       max-width: calc(50% - 7px);
@@ -549,6 +555,7 @@ body {
       padding: 8px 14px;
       border-top: 1px solid #dddddd;
       border-bottom: 1px solid #dddddd;
+      text-align: center;
     }
     tr:last-child td {
 
@@ -661,7 +668,8 @@ body {
   &__item {
     color: #506f13;
     font-weight: 300;
-    margin: 10px 0;
+    margin: 5px 0;
+    font-size: 16px;
   }
  }
   .es-disclaimer {
@@ -947,13 +955,13 @@ body {
         font-size: 32px;
       }
       &__item {
-        font-size: 24px;
+        font-size: 16px;
       }
     }
 
     .es-desc{
       &__item {
-        font-size: 24px;
+        font-size: 16px;
       }
      }
   }
@@ -1006,7 +1014,7 @@ body {
     .es-support {
       &__title {
         padding: 40px;
-        font-size: 72px;
+        font-size: 62px;
       }
       &__items {
         padding: 0 32px;
@@ -1128,7 +1136,7 @@ body {
     .es-desc{
       padding: 40px;
       &__item {
-        font-size: 24px;
+        font-size: 16px;
       }
      }
   }
