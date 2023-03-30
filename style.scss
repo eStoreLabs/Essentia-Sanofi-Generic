@@ -689,13 +689,14 @@ body {
     }
     &__bottom{
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
     }
     &__mat{
       color: #506f13;
       font-weight: 500;
       font-size: 18px;
+      margin-left: 20px;
     }
   }
 

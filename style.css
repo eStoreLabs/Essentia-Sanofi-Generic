@@ -610,13 +610,14 @@ body {
 }
 #es-essentia.es-essentia .es-disclaimer__bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 #es-essentia.es-essentia .es-disclaimer__mat {
   color: #506f13;
   font-weight: 500;
   font-size: 18px;
+  margin-left: 20px;
 }
 @media screen and (min-width: 768px) {
   #es-essentia.es-essentia .es-kv {
