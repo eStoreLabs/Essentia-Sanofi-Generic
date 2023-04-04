@@ -886,6 +886,20 @@ body {
   #es-essentia.es-essentia .swiper-pagination-bullet-active {
     background: #506f13;
   }
+  #es-essentia.es-essentia .swiper-button-next:after {
+    content: "";
+    background-image: url(img/arrow-right.png);
+    background-size: 100% 100%;
+    width: 68px;
+    height: 68px;
+  }
+  #es-essentia.es-essentia .swiper-button-prev:after {
+    content: "";
+    background-image: url(img/arrow-left.png);
+    background-size: 100% 100%;
+    width: 68px;
+    height: 68px;
+  }
   #es-essentia.es-essentia .es-kv__kv {
     min-height: 690px;
   }
