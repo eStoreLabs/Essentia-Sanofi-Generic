@@ -347,7 +347,7 @@
                 <div class="es-info__down">
                   <div class="es-info__wrapper">
                     <div class="es-info__content">
-                      <p class="es-info__title">Utrzymuj prawidłową masę ciała</p>
+                      <p class="es-info__title">Utrzymuj&nbsp;prawidłową masę ciała</p>
                       <p class="es-info__text">
                         Nadwaga lub otyłość mogą obciążać wątrobę, prowadząc do
                         stłuszczenia wątroby. Aby tego uniknąć, utrzymuj
@@ -450,12 +450,12 @@
                   <!-- <img
                     src="img/infoa-4.jpg"
                     alt=""
-                    class="es-info__asset es-info__asset--mobile"
+                    class="es-info__asset es-info__asset--doctor es-info__asset--mobile"
                   />
                   <img
                     src="img/infoa-4-dt.jpg"
                     alt=""
-                    class="es-info__asset es-info__asset--desktop"
+                    class="es-info__asset es-info__asset--doctor es-info__asset--desktop"
                   /> -->
                 </div>
               </div>
@@ -777,13 +777,11 @@
         slidesPerView: 5,
         freeMode: true,
         watchSlidesProgress: true,
-        clickable: true
       })
       // slider
       const swiper2 = new Swiper('.swiper2', {
         loop: true,
         spaceBetween: 10,
-        clickable: true,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev'
@@ -792,7 +790,8 @@
           swiper: swiperNav
         },
         pagination: {
-          el: '.swiper-pagination'
+          el: '.swiper-pagination',
+          clickable: true
         }
       })
     </script>

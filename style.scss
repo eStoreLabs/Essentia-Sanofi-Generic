@@ -451,7 +451,6 @@ body {
       // min-height: 320px;
       padding-bottom: 56px;
       &--doctor{
-        min-height: 340px;
         text-align: center;
       }
     }
@@ -463,6 +462,7 @@ body {
       display: flex;
       align-items: center;
       gap: 14px;
+      min-height: 240px;
     }
     &__title {
       color: #fff;
@@ -894,6 +894,7 @@ body {
         &--desktop {
           display: block;
         }
+      
       }
       &__title {
         font-size: 32px;
@@ -1041,7 +1042,7 @@ body {
       &__desc {
         font-size: 34px;
         line-height: 1.5;
-        max-width: 30%;
+        max-width: 40%;
       }
       &__square {
         max-width: none;
@@ -1100,6 +1101,12 @@ body {
       }
       &__down {
         padding: 40px;
+      }
+      &__asset{
+       
+      }
+      &__wrapper{
+        min-height: 650px;
       }
     }
 
