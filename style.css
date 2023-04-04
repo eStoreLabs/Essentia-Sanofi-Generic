@@ -622,8 +622,11 @@ body {
 #es-essentia.es-essentia .es-disclaimer__mat {
   color: #506f13;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 20px;
+}
+#es-essentia.es-essentia .es-disclaimer__sanofi {
+  max-width: 100px;
 }
 @media screen and (min-width: 768px) {
   #es-essentia.es-essentia .es-kv {
@@ -863,6 +866,9 @@ body {
   }
   #es-essentia.es-essentia .es-disclaimer__item {
     font-size: 16px;
+  }
+  #es-essentia.es-essentia .es-disclaimer__sanofi {
+    max-width: 150px;
   }
   #es-essentia.es-essentia .es-desc__item {
     font-size: 16px;

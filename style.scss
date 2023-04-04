@@ -701,8 +701,11 @@ body {
     &__mat{
       color: #506f13;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 16px;
       margin-left: 20px;
+    }
+    &__sanofi{
+      max-width: 100px;
     }
   }
 
@@ -964,6 +967,9 @@ body {
       }
       &__item {
         font-size: 16px;
+      }
+      &__sanofi{
+        max-width: 150px;
       }
     }
 
