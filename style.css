@@ -389,6 +389,11 @@ body {
 }
 #es-essentia.es-essentia .es-info__down--doctor {
   min-height: 340px;
+  text-align: center;
+}
+#es-essentia.es-essentia .es-info__content {
+  align-self: center;
+  margin: 0 auto;
 }
 #es-essentia.es-essentia .es-info__wrapper {
   display: flex;
@@ -406,7 +411,8 @@ body {
   font-weight: 300;
 }
 #es-essentia.es-essentia .es-info__text--doctor {
-  max-width: 360px;
+  max-width: 460px;
+  text-align: center;
 }
 #es-essentia.es-essentia .es-info__asset {
   max-width: calc(50% - 7px);
