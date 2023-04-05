@@ -616,7 +616,7 @@ body {
 }
 #es-essentia.es-essentia .es-disclaimer__bottom {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 #es-essentia.es-essentia .es-disclaimer__mat {
